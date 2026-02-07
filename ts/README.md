@@ -49,3 +49,35 @@ From ATA: 8b4Xov8NwciDKLdu43hSUJu9x5uBEzrEJoyJEvAMxeKv
 To ATA: 49LDtKAruHsuj8boa7hUixCCYXPQYhxKoMXbzTQx31B5
 Your transfer txid: 2ggkunMt5ihnxjGLUzK56n8e5CL8VZUQ3Nd4gdTEtteN4S6vxLjyPrN5bXxGvjUadZrxWdk4PeJ66iSKpxJBomYV
 ```
+
+
+### NFT
+
+#### OUTPUT
+```bash
+kunal@Crusader:~/solana-starter/ts$ pnpm nft_image
+
+> turbin3-solana@1.0.0 nft_image /home/kunal/solana-starter/ts
+> ts-node ./cluster1/nft_image.ts
+
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+Your image URI:  https://gateway.irys.xyz/5BaR9vsj4Wbx9qpmEPGMAyGEUYAMiq5EjNWr9mGsrpz3
+kunal@Crusader:~/solana-starter/ts$ pnpm nft_metadata
+
+> turbin3-solana@1.0.0 nft_metadata /home/kunal/solana-starter/ts
+> ts-node ./cluster1/nft_metadata.ts
+
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+Your metadata URI:  https://gateway.irys.xyz/6AyXAEnhJ3wkiGTtZkSMMA5LXabxk4sQnVaLtHPotcoM
+kunal@Crusader:~/solana-starter/ts$ pnpm nft_mint
+
+> turbin3-solana@1.0.0 nft_mint /home/kunal/solana-starter/ts
+> ts-node ./cluster1/nft_mint.ts
+
+Succesfully Minted! Check out your TX here:
+https://explorer.solana.com/tx/37XsU9UypicPz8ruFawfCDXjkQbPsLzQdJSNnT8bXaWGdcuAbbjV3FWHfovjJNe2CFRKXfA5veYhGDwPvwVGSpqo?cluster=devnet
+Mint Address:  EwecAVN3Mx9v9Skc8cr3NJbV6gG5svKEBAAAxBBs2Nsw
+kunal@Crusader:~/solana-starter/ts$
+```
+```
+```
